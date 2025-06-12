@@ -1,0 +1,27 @@
+{
+  "name": "consent-love-moon",
+  "version": "1.0.0",
+  "description": "Consent Love Moon - A monorepo project",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "moon run dev",
+    "build": "moon run build",
+    "test": "moon run test",
+    "lint": "moon run lint",
+    "format": "moon run format",
+    "clean": "moon run clean",
+    "setup": "pnpm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=10.0.0"
+  }
+}
